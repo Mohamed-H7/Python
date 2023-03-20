@@ -5,7 +5,7 @@
 # يوجد دالة ايضا لمعرفة كم سطر داخل الملف
 # يجب استدعاء الدالة ووضع اسم الملف ولكن بدون صيغة الملف فقط الاسم
 
-def num_of_characters(file_name):
+def num_of_characters(file_name): 
 
     letters_big = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R",
                    "S", "T", "Y", "V", "W", "X", "Y", "Z"]
