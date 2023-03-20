@@ -16,7 +16,7 @@ print("""- Password must contain at least 8 characters and not more than 12 char
 
 tr = "1"
 while(tr == "1"):
-    password = input("\nEnter a password: ")
+    password = input("Enter a password: ")
 
     num = ("1", "2", "3", "4", "5", "6", "7", "8", "9", "0")
     sp = " "
@@ -42,7 +42,7 @@ while(tr == "1"):
         passmora12 = True
     else:
         passmora12 = False
-
+ 
     if len(password) >= 8:
         passless8 = True
     else:
