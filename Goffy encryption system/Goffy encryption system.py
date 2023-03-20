@@ -1,5 +1,8 @@
-# نظام تشفير
-# Govf encryption system
+# -----------------------------
+# -- Goffy encryption system --
+# -----------------------------
+# Please note that this encryption system is mine and it is not allowed to modify it at all or attribute it to another person, and violating that exposes you to legal accountability
+# You can send this code to your friends and use it to encrypt and translate messages between you (:
 
 ar_en = {"أ": "h", "ب": "f", "ت": "j", "ث": "e", "ج": "[", "ح": "p", "خ": "o", "د": "]",
          "ذ": "`", "ر": "v", "ز": ".", "س": "s", "ش": "a", "ص": "w", "ض": "q", "ط": "'", "ظ": "/",
