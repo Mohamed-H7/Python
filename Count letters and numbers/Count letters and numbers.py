@@ -1,3 +1,6 @@
+# -------------------------------
+# -- Count letters and numbers --
+# -------------------------------
 # يستعمل هذا الكود لمعرفة عدد الاحرف او الارقام الموجودة داخل الملف
 # يوجد دالة ايضا لمعرفة كم سطر داخل الملف
 # يجب استدعاء الدالة ووضع اسم الملف ولكن بدون صيغة الملف فقط الاسم
@@ -18,7 +21,7 @@ def num_of_characters(file_name):
         if i in letters_small or i in letters_big:
             count_letter += 1
 
-    print(count_letter)
+    print("Character count: ", count_letter)
     file_r.close()
 
 
@@ -33,7 +36,7 @@ def num_of_digits(file_name):
         if i in number:
             count_number += 1
 
-    print(count_number)
+    print("number of digits: ", count_number)
     file_r.close()
 
 
@@ -41,10 +44,11 @@ def line(file_name):
     file_r = open(f"{file_name}.txt", "r")
     line = file_r.readlines()
 
-    print(len(line))
+    print("The number of lines: ", len(line))
     file_r.close()
 
 
-num_of_characters("Letter")
-num_of_digits("Letter")
-line("Letter")
+num_of_characters("file_name")
+num_of_digits("file_name")
+line("file_name")
+# Put the file name in place of "file_name".
