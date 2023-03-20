@@ -8,5 +8,6 @@ You can send this code to your friends and use it to encrypt and translate messa
 
 ## Information about the file:-
 - **Code Type:** Project
+- **Version:** 1.2v
 - **Date of writing the code:** 18/02/2023
 - **The language of the text inside the code:** Arabic and English
