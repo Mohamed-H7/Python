@@ -2,7 +2,7 @@
 # -- Age calculator --
 # --------------------
 
-while True:
+while True: 
 
     age = int(input("Please enter your age: "))
 
