@@ -1,6 +1,6 @@
 # ---------------------------
 # -- Fill in employee data --
-# ---------------------------
+# --------------------------- 
 
 # Bu satır, dosya yoksa bir veri dosyası oluşturmak için yazılmıştır.
 file_open = open("employeedata.txt", "a")
